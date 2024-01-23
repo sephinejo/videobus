@@ -1,0 +1,448 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "tLOtMM_vmt5AN28WlCPQUm9P3Ds",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "M2Ec4HmCQvPWsi0_LPUa9KIX5uc",
+      "id": "Oa5zeHdSwdQ",
+      "snippet": {
+        "publishedAt": "2024-01-22T18:00:12Z",
+        "channelId": "UCZGYJFUizSax-yElQaFDp5Q",
+        "title": "The Bad Batch | The Final Season Official Trailer | Disney+",
+        "description": "One last fight.\n\nThe final season of Star Wars: #TheBadBatch starts streaming February 21, with a three-episode premiere, only on Disney+.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Oa5zeHdSwdQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Oa5zeHdSwdQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Oa5zeHdSwdQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Oa5zeHdSwdQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Oa5zeHdSwdQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Star Wars",
+        "tags": [
+          "star wars",
+          "the bad batch",
+          "bad batch",
+          "season 3",
+          "trailer",
+          "lucasfilm",
+          "hunter",
+          "wrecker",
+          "omega"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "The Bad Batch | The Final Season Official Trailer | Disney+",
+          "description": "One last fight.\n\nThe final season of Star Wars: #TheBadBatch starts streaming February 21, with a three-episode premiere, only on Disney+."
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT2M3S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1075143",
+        "likeCount": "76112",
+        "favoriteCount": "0",
+        "commentCount": "6273"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "VpVBuPQRDtMLgiyfaMcY1VdS7wk",
+      "id": "C1dnuf-jkXA",
+      "snippet": {
+        "publishedAt": "2024-01-22T17:00:08Z",
+        "channelId": "UC-gW4TeZAlKm7UATp24JsWQ",
+        "title": "We Ruined Lethal Company With These Mods",
+        "description": "My GamerSupps Flavor Launch - JANUARY 26TH\nhttps://gamersupps.gg/s7\n\nI made a mod pack of nearly 60 mods in an attempt to make the dumbest mod pack ever. It was a mistake.\nLeave a like and Subscribe if you enjoyed! Thanks =)\n\nAll the footage featured in this video was livestreamed on my Twitch channel!\nFollow it to catch the streams live when they happen! - https://www.twitch.tv/smii7y\n\nUse code S7 on Gamer Supps for 10% OFF your order: https://gamersupps.gg/s7\n\nCheck out my other channels!\nMain Channel:  https://www.youtube.com/c/SMii7Y\nStream VODs:  https://www.youtube.com/c/SMii7Yminus\n\nFollow my Stream, Social Medias and check out my Merch!\n📺 Stream - http://www.twitch.tv/smii7y\n🐦 Twitter - https://twitter.com/SMii7Y\n📷 Instagram - https://www.instagram.com/smii7y/\n📱 TikTok - https://www.tiktok.com/@thesmii7y\n👕 Merch - https://smii7y.store/\n\nFriends in the video:\n@Grizzy \n@ElasticDroid \n@Pezzy \n@Bigpuffer \n@BlargMyShnoople \n\n🎵 Music by:\nhttp://www.epidemicsound.com/\nhttp://www.premiumbeat.com/\nhttp://audiojungle.net/\nincompetech.com \nLicensed under Creative Commons: By Attribution 3.0\nhttps://creativecommons.org/licenses/by/3.0/\nhttps://99sounds.org/\n\nOutro Music Created by:  https://www.youtube.com/@MattercellEntertainment",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C1dnuf-jkXA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C1dnuf-jkXA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C1dnuf-jkXA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/C1dnuf-jkXA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/C1dnuf-jkXA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SMii7Yplus",
+        "tags": [
+          "smii7y",
+          "smii7yplus",
+          "smii7y+",
+          "smii7y plus",
+          "lethal company",
+          "lethal company gameplay",
+          "lethal company funny moments",
+          "lethal company game",
+          "horror game",
+          "funny moments",
+          "lethal company reaction",
+          "lethal company jumpscare",
+          "lethal company game horror",
+          "lethal company compilation"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "We Ruined Lethal Company With These Mods",
+          "description": "My GamerSupps Flavor Launch - JANUARY 26TH\nhttps://gamersupps.gg/s7\n\nI made a mod pack of nearly 60 mods in an attempt to make the dumbest mod pack ever. It was a mistake.\nLeave a like and Subscribe if you enjoyed! Thanks =)\n\nAll the footage featured in this video was livestreamed on my Twitch channel!\nFollow it to catch the streams live when they happen! - https://www.twitch.tv/smii7y\n\nUse code S7 on Gamer Supps for 10% OFF your order: https://gamersupps.gg/s7\n\nCheck out my other channels!\nMain Channel:  https://www.youtube.com/c/SMii7Y\nStream VODs:  https://www.youtube.com/c/SMii7Yminus\n\nFollow my Stream, Social Medias and check out my Merch!\n📺 Stream - http://www.twitch.tv/smii7y\n🐦 Twitter - https://twitter.com/SMii7Y\n📷 Instagram - https://www.instagram.com/smii7y/\n📱 TikTok - https://www.tiktok.com/@thesmii7y\n👕 Merch - https://smii7y.store/\n\nFriends in the video:\n@Grizzy \n@ElasticDroid \n@Pezzy \n@Bigpuffer \n@BlargMyShnoople \n\n🎵 Music by:\nhttp://www.epidemicsound.com/\nhttp://www.premiumbeat.com/\nhttp://audiojungle.net/\nincompetech.com \nLicensed under Creative Commons: By Attribution 3.0\nhttps://creativecommons.org/licenses/by/3.0/\nhttps://99sounds.org/\n\nOutro Music Created by:  https://www.youtube.com/@MattercellEntertainment"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT30M33S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1091582",
+        "likeCount": "74740",
+        "favoriteCount": "0",
+        "commentCount": "1529"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "xlv08Q-Kbckmj7H-HauDwp4quWM",
+      "id": "yA0hoxZCSAY",
+      "snippet": {
+        "publishedAt": "2024-01-22T18:14:22Z",
+        "channelId": "UCqFzWxSCi39LnW1JKFR3efg",
+        "title": "Please Don't Destroy - Pimp My Ride - SNL",
+        "description": "In this Cut for Time sketch, Ben, John and Martin help a 30 Rock janitor (Jacob Elordi) pimp his ride.\n\nSaturday Night Live. Stream now on Peacock: https://pck.tv/3n1IyzK\n\nSubscribe to SNL: https://goo.gl/tUsXwM\nStream Current Full Episodes: http://www.nbc.com/saturday-night-live\n\nWATCH PAST SNL SEASONS\nGoogle Play - http://bit.ly/SNLGooglePlay\niTunes - http://bit.ly/SNLiTunes\n\nSNL ON SOCIAL\nSNL Instagram: http://instagram.com/nbcsnl\nSNL Facebook: https://www.facebook.com/snl\nSNL Twitter: https://twitter.com/nbcsnl\nSNL TikTok: https://www.tiktok.com/@nbcsnl\n\nGET MORE NBC\nLike NBC: http://Facebook.com/NBC\nFollow NBC: http://Twitter.com/NBC\nNBC Tumblr: http://NBCtv.tumblr.com/\nYouTube: http://www.youtube.com/nbc\nNBC Instagram: http://instagram.com/nbc\n\n#SNL #PleaseDontDestroy #SNL49 #JacobElordi",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yA0hoxZCSAY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yA0hoxZCSAY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yA0hoxZCSAY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/yA0hoxZCSAY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/yA0hoxZCSAY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Saturday Night Live",
+        "tags": [
+          "snl",
+          "saturday night live",
+          "snl 49",
+          "saturday night live season 49",
+          "jacob elordi",
+          "snl host jacob elordi",
+          "ben marshall",
+          "john higgins",
+          "martin herlihy",
+          "michael longfellow",
+          "fantasy",
+          "please don't destroy - pimp my ride",
+          "pimp my ride",
+          "please don't destroy",
+          "saturday night live jacob elordi",
+          "SNL01202024",
+          "saltburn",
+          "SNL",
+          "Saturday Night Live",
+          "comedy",
+          "sketch",
+          "host",
+          "guest",
+          "season 49",
+          "Jacob Elordi",
+          "SNL guest",
+          "saturday night live guest",
+          "saturday night live host",
+          "Kissing Booth",
+          "Euphoria",
+          "Saltburn"
+        ],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Please Don't Destroy - Pimp My Ride - SNL",
+          "description": "In this Cut for Time sketch, Ben, John and Martin help a 30 Rock janitor (Jacob Elordi) pimp his ride.\n\nSaturday Night Live. Stream now on Peacock: https://pck.tv/3n1IyzK\n\nSubscribe to SNL: https://goo.gl/tUsXwM\nStream Current Full Episodes: http://www.nbc.com/saturday-night-live\n\nWATCH PAST SNL SEASONS\nGoogle Play - http://bit.ly/SNLGooglePlay\niTunes - http://bit.ly/SNLiTunes\n\nSNL ON SOCIAL\nSNL Instagram: http://instagram.com/nbcsnl\nSNL Facebook: https://www.facebook.com/snl\nSNL Twitter: https://twitter.com/nbcsnl\nSNL TikTok: https://www.tiktok.com/@nbcsnl\n\nGET MORE NBC\nLike NBC: http://Facebook.com/NBC\nFollow NBC: http://Twitter.com/NBC\nNBC Tumblr: http://NBCtv.tumblr.com/\nYouTube: http://www.youtube.com/nbc\nNBC Instagram: http://instagram.com/nbc\n\n#SNL #PleaseDontDestroy #SNL49 #JacobElordi"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT3M12S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "regionRestriction": {
+          "blocked": [
+            "AD",
+            "AU",
+            "BE",
+            "CA",
+            "DE",
+            "DZ",
+            "FR",
+            "GF",
+            "GP",
+            "KM",
+            "LU",
+            "MA",
+            "MC",
+            "MQ",
+            "NC",
+            "PF",
+            "PM",
+            "RE",
+            "SC",
+            "TN",
+            "WF",
+            "YT"
+          ]
+        },
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "596752",
+        "likeCount": "18435",
+        "favoriteCount": "0",
+        "commentCount": "753"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "QR5i958BVbViV_V04qxfXDx9pyE",
+      "id": "XL4u-5F5Qhk",
+      "snippet": {
+        "publishedAt": "2024-01-22T16:51:09Z",
+        "channelId": "UCNgN5oEI2PyODSM6ZijidCg",
+        "title": "Common & Jennifer Hudson on Attending the Usher Concert",
+        "description": "Common tells Jennifer he wanted her to have the “best time” as they recall the host being serenaded by Usher at his concert in Las Vegas. The ‘And Then We Rise: A Guide to Loving and Taking Care of Self’ author tells Jennifer why he chose to wear the color yellow on her show, before they discuss being Chicago Bulls fans. Then Common presents Jennifer with a gift as she proposes a plan for him to help her get ready for the NBA All-Star Celebrity Game!   \n\nSUBSCRIBE\nSubscribe to “The Jennifer Hudson Show” newsletter: https://jenniferhudsonshow.com/pages/newsletter/ \nSubscribe to “The Jennifer Hudson Show” channel: youtube.com/c/JenniferHudsonShow \nWhen the show's on in your area: https://jenniferhudsonshow.com/when-its-on/ \nFor tickets to the show, visit https://jenniferhudsonshow.com/tickets/ \nVisit “The Jennifer Hudson Show” merch shop: https://shop.jenniferhudsonshow.com/ \n\nFOLLOW US \nInstagram: https://www.instagram.com/jenniferhudsonshow/ \nFacebook: https://www.facebook.com/JenniferHudsonShow/ \nTwitter: https://twitter.com/JHudShow \nTikTok: https://www.tiktok.com/@jenniferhudsonshow/ \n\n#jenniferhudson #jenniferhudsonshow",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XL4u-5F5Qhk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XL4u-5F5Qhk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XL4u-5F5Qhk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/XL4u-5F5Qhk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/XL4u-5F5Qhk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Jennifer Hudson Show",
+        "tags": [
+          "jennifer hudson",
+          "the jennifer hudson show",
+          "jhud",
+          "jhudson",
+          "jennifer",
+          "jeniferhudson",
+          "talk show",
+          "show",
+          "premiere",
+          "daytime",
+          "daytimetv",
+          "funny",
+          "entertainment",
+          "singing",
+          "jennifer hudson show",
+          "jennifer hudson singing",
+          "jhud show",
+          "jennifer hudson talk show",
+          "hilarious",
+          "hudson"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Common & Jennifer Hudson on Attending the Usher Concert",
+          "description": "Common tells Jennifer he wanted her to have the “best time” as they recall the host being serenaded by Usher at his concert in Las Vegas. The ‘And Then We Rise: A Guide to Loving and Taking Care of Self’ author tells Jennifer why he chose to wear the color yellow on her show, before they discuss being Chicago Bulls fans. Then Common presents Jennifer with a gift as she proposes a plan for him to help her get ready for the NBA All-Star Celebrity Game!   \n\nSUBSCRIBE\nSubscribe to “The Jennifer Hudson Show” newsletter: https://jenniferhudsonshow.com/pages/newsletter/ \nSubscribe to “The Jennifer Hudson Show” channel: youtube.com/c/JenniferHudsonShow \nWhen the show's on in your area: https://jenniferhudsonshow.com/when-its-on/ \nFor tickets to the show, visit https://jenniferhudsonshow.com/tickets/ \nVisit “The Jennifer Hudson Show” merch shop: https://shop.jenniferhudsonshow.com/ \n\nFOLLOW US \nInstagram: https://www.instagram.com/jenniferhudsonshow/ \nFacebook: https://www.facebook.com/JenniferHudsonShow/ \nTwitter: https://twitter.com/JHudShow \nTikTok: https://www.tiktok.com/@jenniferhudsonshow/ \n\n#jenniferhudson #jenniferhudsonshow"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT5M24S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "212167",
+        "likeCount": "3985",
+        "favoriteCount": "0",
+        "commentCount": "430"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "3dTcbFXF2Erlq6dwohDxroikuDY",
+      "id": "nHa0ICsVVcA",
+      "snippet": {
+        "publishedAt": "2024-01-22T13:22:38Z",
+        "channelId": "UCFXUSG_393wZJaRTErU6Pjw",
+        "title": "PALWORLD - Avoid these MASSIVE MISTAKES! | 25+ Best EARLY and Midgame Tips & Tricks",
+        "description": "PALWORLD - Avoid these MASSIVE MISTAKES! | 25+ Best EARLY Mid Game Tips & Tricks \n\nTIMESTAMPS \n\nIntro - 00:00\nFaster Gliding - 00:25\nStats - 01:12\nBetter Ground Mounts - 02:32\nWorld Settings - 03:13\nSpecialized Bases - 04:35\nPals Health | Boost productivity - 06:03\nHandyman - 08:30 \nAssign Pals tasks manually - 09:56\nPal Passives - 10:38\nFarm Blue Spheres - 11:53\nLifmunk Effigies - 12:25\nRepair Kits - 13:18\nShiny Pals | Lucky stats - 13:52\nCook your food - 15:13\nCraft Food Bags - 16:11\nDungeons - 17:08\nSchematics - 18:46\nAncient Civilization Parts - 19:29\nCombat | Dodging - 20:20\nSurprise capture pals - 21:18\nDying | Recover dropped items - 21:57\nHatch Eggs Faster - 22:53\nPossible Pal Drops - 23:20\nOutro - 24:42\n\n👉 Buy cheap games from GOG.com: https://af.gog.com/partner/KhrazeGaming?as=1716831059\n\nEnjoying the video?  Subscribe for more: https://bit.ly/2uLoCBT\nJoin this channel to get access to perks: https://bit.ly/3S3XZSw\nFollow me on Social Media:\n- Twitter: https://twitter.com/KhrazeGAMING\n- Instagram: https://www.instagram.com/khrazegaming/\n- Twitch: https://www.twitch.tv/khrazegaming\nJoin my Discord: https://discord.gg/hZHXPYP2df\n▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃\nBest Youtube SEO TOOLS:\nhttps://www.tubebuddy.com/Khraze \nhttps://vidiq.com/khraze\n▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃\nCheck out my other video games series:\nCyberpunk 2077 News and Gameplay: https://youtube.com/playlist?list=PLz2DmZmAj065jCHMuHLIGiCixxEhQUq_6\nNo Man's Sky Guides and Gameplay: https://youtube.com/playlist?list=PLz2DmZmAj067tIMkQtywGRjqhLDJnt_me\nGhost of Tsushima Guides & Updates: https://youtube.com/playlist?list=PLz2DmZmAj067tIMkQtywGRjqhLDJnt_me\nFinal Fantasy 7 Remake Guides & Gameplay: https://youtube.com/playlist?list=PLz2DmZmAj067coc5wF5wqFHpvxAPJUhn1\n\nSongs provided by EpidemicSounds",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nHa0ICsVVcA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nHa0ICsVVcA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nHa0ICsVVcA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nHa0ICsVVcA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nHa0ICsVVcA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KhrazeGaming",
+        "tags": [
+          "khraze gaming",
+          "khrazegaming",
+          "palworld gameplay",
+          "palworld guide",
+          "palworld tips and tricks",
+          "palworld pokemon",
+          "palworld best tricks",
+          "palworld early game tips",
+          "palworld secrets",
+          "palworld dungeons",
+          "palworld mistakes",
+          "palworld best pals",
+          "palworld tools",
+          "palworld farming",
+          "palworld farming tips",
+          "palworld speed up eggs",
+          "palworld best settings",
+          "palworld world settings",
+          "palworld unlocks",
+          "palworld best secrets",
+          "palworld base guide",
+          "palworld dungeon",
+          "palworld ancient civilization"
+        ],
+        "categoryId": "20",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "PALWORLD - Avoid these MASSIVE MISTAKES! | 25+ Best EARLY and Midgame Tips & Tricks",
+          "description": "PALWORLD - Avoid these MASSIVE MISTAKES! | 25+ Best EARLY Mid Game Tips & Tricks \n\nTIMESTAMPS \n\nIntro - 00:00\nFaster Gliding - 00:25\nStats - 01:12\nBetter Ground Mounts - 02:32\nWorld Settings - 03:13\nSpecialized Bases - 04:35\nPals Health | Boost productivity - 06:03\nHandyman - 08:30 \nAssign Pals tasks manually - 09:56\nPal Passives - 10:38\nFarm Blue Spheres - 11:53\nLifmunk Effigies - 12:25\nRepair Kits - 13:18\nShiny Pals | Lucky stats - 13:52\nCook your food - 15:13\nCraft Food Bags - 16:11\nDungeons - 17:08\nSchematics - 18:46\nAncient Civilization Parts - 19:29\nCombat | Dodging - 20:20\nSurprise capture pals - 21:18\nDying | Recover dropped items - 21:57\nHatch Eggs Faster - 22:53\nPossible Pal Drops - 23:20\nOutro - 24:42\n\n👉 Buy cheap games from GOG.com: https://af.gog.com/partner/KhrazeGaming?as=1716831059\n\nEnjoying the video?  Subscribe for more: https://bit.ly/2uLoCBT\nJoin this channel to get access to perks: https://bit.ly/3S3XZSw\nFollow me on Social Media:\n- Twitter: https://twitter.com/KhrazeGAMING\n- Instagram: https://www.instagram.com/khrazegaming/\n- Twitch: https://www.twitch.tv/khrazegaming\nJoin my Discord: https://discord.gg/hZHXPYP2df\n▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃\nBest Youtube SEO TOOLS:\nhttps://www.tubebuddy.com/Khraze \nhttps://vidiq.com/khraze\n▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃\nCheck out my other video games series:\nCyberpunk 2077 News and Gameplay: https://youtube.com/playlist?list=PLz2DmZmAj065jCHMuHLIGiCixxEhQUq_6\nNo Man's Sky Guides and Gameplay: https://youtube.com/playlist?list=PLz2DmZmAj067tIMkQtywGRjqhLDJnt_me\nGhost of Tsushima Guides & Updates: https://youtube.com/playlist?list=PLz2DmZmAj067tIMkQtywGRjqhLDJnt_me\nFinal Fantasy 7 Remake Guides & Gameplay: https://youtube.com/playlist?list=PLz2DmZmAj067coc5wF5wqFHpvxAPJUhn1\n\nSongs provided by EpidemicSounds"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT24M55S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "270918",
+        "likeCount": "5250",
+        "favoriteCount": "0",
+        "commentCount": "448"
+      }
+    }
+  ],
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 200,
+    "resultsPerPage": 5
+  }
+}
