@@ -1,0 +1,40 @@
+.historyContainer {
+  background-color: rgb(243, 249, 255);
+  padding: 0.8rem;
+}
+
+.historyTitleBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.historyIcon {
+  font-size: 2rem;
+}
+
+.historyText {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.searched {
+  display: flex;
+  flex-direction: column;
+}
+
+.keywordBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border: dotted #452c63 1px;
+  margin-bottom: 0.2rem;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  font-size: 1.7rem;
+}

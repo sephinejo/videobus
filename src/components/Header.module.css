@@ -1,0 +1,60 @@
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+.logoBox {
+  display: flex;
+  align-items: center;
+}
+
+.logoIcon {
+  font-size: 4rem;
+}
+
+.logoText {
+  font-family: 'Acme', sans-serif;
+  font-size: 4rem;
+  color: #756ab6;
+  text-shadow: #c4b7ffb6 3px 4px;
+}
+
+.searchForm {
+  position: relative;
+  max-width: 80rem;
+  width: 80rem;
+  height: 4.5rem;
+  margin: 0 auto;
+}
+
+.searchInput {
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  border: 1px solid #756ab6;
+  border-radius: 50px;
+  height: 100%;
+}
+
+.searchInput::placeholder {
+  color: #756ab6;
+}
+
+.searchBtn {
+  width: 100%;
+}
+
+.searchIcon {
+  position: absolute;
+  font-size: 2.5rem;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #452c63;
+}
+
+.login {
+  color: #452c63;
+}
