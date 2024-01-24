@@ -5,7 +5,7 @@ import styles from './Header.module.css';
 import { useEffect, useState } from 'react';
 import HotKeywords from './HotKeywords';
 
-function Header({ onAdd }) {
+function Header({ onAdd, onDelete }) {
   const [term, setTerm] = useState('');
   const { keyword } = useParams();
 
@@ -29,7 +29,7 @@ function Header({ onAdd }) {
 
   useEffect(() => {
     setTerm(keyword || '');
-  }, [keyword]);
+  }, [keyword, onDelete]);
 
   return (
     <>

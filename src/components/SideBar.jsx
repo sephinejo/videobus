@@ -3,13 +3,8 @@ import { RiDeleteBack2Line } from 'react-icons/ri';
 import { LuHistory } from 'react-icons/lu';
 import styles from './SideBar.module.css';
 
-function SideBar({ searched, setSearched }) {
+function SideBar({ searched, onDelete }) {
   const navigate = useNavigate();
-
-  const deleteHandler = (keyword) => {
-    const remained = searched?.filter((k) => k !== keyword);
-    setSearched(remained);
-  };
 
   return (
     <section className={styles.historyContainer}>
@@ -25,7 +20,7 @@ function SideBar({ searched, setSearched }) {
                 {keyword}
               </span>
               <RiDeleteBack2Line
-                onClick={() => deleteHandler(keyword)}
+                onClick={() => onDelete(keyword)}
                 className={styles.deleteIcon}
               />
             </li>

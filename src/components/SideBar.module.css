@@ -1,5 +1,5 @@
 .historyContainer {
-  background-color: rgb(243, 249, 255);
+  background-color: var(--color-blue-light);
   padding: 0.8rem;
 }
 
@@ -30,7 +30,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border: dotted #452c63 1px;
+  border: dotted var(--color-purple-dark) 1px;
   margin-bottom: 0.2rem;
 }
 
