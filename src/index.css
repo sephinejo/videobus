@@ -6,7 +6,9 @@
   --color-purple-dark: #452c63;
   --color-purple-light: #c4b7ffb6;
   --color-blue-light: rgb(243, 249, 255);
+  --color-gray-dark: #495057;
   --color-gray: #868e96;
+  --color-gray-light: #adb5bd;
 }
 
 html {

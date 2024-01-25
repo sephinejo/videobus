@@ -4,6 +4,7 @@
 }
 
 .historyTitleBox {
+  color: var(--color-gray-dark);
   display: flex;
   align-items: center;
   justify-content: center;
