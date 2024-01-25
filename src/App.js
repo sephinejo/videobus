@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 import './App.css';
 import Header from './components/Header';
 import SideBar from './components/SideBar';
+import { YoutubeApiProvider } from './context/YoutubeApiContext';
 
 const queryClient = new QueryClient();
 
@@ -24,13 +25,15 @@ function App() {
 
   return (
     <div className='appContainer'>
-      <QueryClientProvider client={queryClient}>
-        <Header onAdd={addHandler} onDelete={deleteHandler} />
-        <div className='outlet'>
-          <SideBar searched={searched} onDelete={deleteHandler} />
-          <Outlet />
-        </div>
-      </QueryClientProvider>
+      <YoutubeApiProvider>
+        <QueryClientProvider client={queryClient}>
+          <Header onAdd={addHandler} onDelete={deleteHandler} />
+          <div className='outlet'>
+            <SideBar searched={searched} onDelete={deleteHandler} />
+            <Outlet />
+          </div>
+        </QueryClientProvider>
+      </YoutubeApiProvider>
     </div>
   );
 }
