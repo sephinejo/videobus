@@ -2,7 +2,7 @@ import { useLocation } from 'react-router-dom';
 import styles from './VideoDetail.module.css';
 import Channel from '../components/Channel';
 import RelatedVideos from '../components/RelatedVideos';
-import { format, cancel } from 'timeago.js';
+import { format } from 'timeago.js';
 
 function VideoDetail() {
   const {
@@ -37,9 +37,9 @@ function VideoDetail() {
           </p>
         </pre>
       </article>
-      <section>
+      {/*<section>
         <RelatedVideos video={video} />
-      </section>
+      </section>*/}
     </section>
   );
 }
