@@ -1,0 +1,22 @@
+.videosContainer {
+  display: grid;
+  grid-template-columns: 25rem 1fr;
+}
+
+.videosTitle {
+  margin: 1rem 0;
+}
+
+.videosBox {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  gap: 1.5rem;
+  padding: 0 3rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .videosContainer {
+    grid-template-columns: 10rem 1fr;
+  }
+}

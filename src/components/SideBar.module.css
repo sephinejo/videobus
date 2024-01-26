@@ -1,6 +1,8 @@
-.historyContainer {
-  background-color: var(--color-blue-light);
+.sideBarContainer {
+  background-color: var(--color-purple-light-opacity);
   padding: 0.8rem;
+  width: 25rem;
+  height: 80vh;
 }
 
 .historyTitleBox {
@@ -38,4 +40,10 @@
 .deleteIcon {
   cursor: pointer;
   font-size: 1.7rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .sideBarContainer {
+    width: 10rem;
+  }
 }

@@ -1,9 +1,11 @@
 import { useParams } from 'react-router-dom';
 import { useQuery } from 'react-query';
+import styles from './VideoList.module.css';
+import SideBar from '../components/SideBar';
 import VideoCard from '../components/VideoCard';
 import { useYoutubeApi } from '../context/YoutubeApiContext';
 
-function VideosList() {
+function VideosList({ searched, onDelete }) {
   const { keyword } = useParams();
   const { youtube } = useYoutubeApi();
   const {
@@ -13,14 +15,17 @@ function VideosList() {
   } = useQuery(['videos', keyword], () => youtube.search(keyword));
 
   return (
-    <div>
-      <h2>Videos {keyword ? keyword : 'Trending Now🔥'}</h2>
+    <section className={styles.videosContainer}>
+      <SideBar searched={searched} onDelete={onDelete} />
+
       {isLoading && <p>Loading...</p>}
       {error && <p>An error has occurred! {error.message}</p>}
-      {videos?.map((video) => (
-        <VideoCard key={video.id} video={video} />
-      ))}
-    </div>
+      <div className={styles.videosBox}>
+        {videos?.map((video) => (
+          <VideoCard key={video.id} video={video} />
+        ))}
+      </div>
+    </section>
   );
 }
 

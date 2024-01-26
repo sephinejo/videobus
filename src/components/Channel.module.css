@@ -1,0 +1,29 @@
+.channelContainer {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.thumbnail {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.nameAndStatistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.3;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.statistics {
+  display: flex;
+  gap: 1rem;
+}

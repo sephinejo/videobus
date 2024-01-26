@@ -1,14 +1,4 @@
 .appContainer {
-  max-width: 200rem;
-  width: 200rem;
-  height: 100%;
   margin: 0 auto;
-}
-
-.outlet {
-  margin-top: 4rem;
-  display: grid;
-  grid-template-columns: minmax(20rem, 25rem) 1fr;
-  gap: 3rem;
-  height: calc(100% - 10rem);
+  padding: 1rem 2rem;
 }

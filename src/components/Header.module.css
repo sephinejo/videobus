@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
+  padding-bottom: 5rem;
 }
 
 .logoBox {
@@ -17,7 +18,7 @@
   font-family: 'Acme', sans-serif;
   font-size: 4rem;
   color: var(--color-brand);
-  text-shadow: #c4b7ffb6 3px 4px;
+  text-shadow: var(--color-purple-light) 3px 4px;
 }
 
 .searchForm {
@@ -60,6 +61,11 @@
   border-radius: 0 50px 50px 0;
 }
 
-.login {
+.loginIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--color-purple-dark);
+  font-size: 3rem;
+  cursor: pointer;
 }

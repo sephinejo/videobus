@@ -1,6 +1,7 @@
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { FcFilmReel } from 'react-icons/fc';
 import { BsSearchHeart } from 'react-icons/bs';
+import { IoPersonCircleOutline } from 'react-icons/io5';
 import styles from './Header.module.css';
 import { useEffect, useState } from 'react';
 import HotKeywords from './HotKeywords';
@@ -53,7 +54,9 @@ function Header({ onAdd, onDelete }) {
           <HotKeywords />
         </form>
 
-        <div className={styles.login}>Login</div>
+        <div className={styles.loginIcon}>
+          <IoPersonCircleOutline />
+        </div>
       </header>
     </>
   );

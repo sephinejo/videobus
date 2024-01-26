@@ -7,7 +7,7 @@ function SideBar({ searched, onDelete }) {
   const navigate = useNavigate();
 
   return (
-    <section className={styles.historyContainer}>
+    <section className={styles.sideBarContainer}>
       <div className={styles.historyTitleBox}>
         <LuHistory className={styles.historyIcon} />
         <span className={styles.historyText}>History</span>
