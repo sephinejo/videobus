@@ -15,7 +15,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  line-height: 1.3;
+  /* line-height: 1.3; */
+}
+
+.name::before {
+  content: '';
+  border: 2px solid var(--color-brand);
+  margin-right: 0.3rem;
 }
 
 .name {
