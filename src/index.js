@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import VideosList from './pages/VideosList';
 import VideoDetail from './pages/VideoDetail';
 import NotFound from './pages/NotFound';

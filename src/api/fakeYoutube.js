@@ -11,6 +11,10 @@ export default class FakeYoutube {
     return axios.get('/videos/channel.json').then((res) => res.data.items[0]);
   }
 
+  async relatedVideos(channelId) {
+    return axios.get('/videos/playlists.json').then((res) => res.data.items);
+  }
+
   async #searchByKeyword() {
     return axios
       .get('/videos/search.json')

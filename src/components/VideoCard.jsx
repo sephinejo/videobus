@@ -17,7 +17,7 @@ function VideoCard({ video }) {
       <div className={styles.thumbnailBox}>
         <img
           className={styles.thumbnail}
-          src={thumbnails.maxres?.url || thumbnails.high.url}
+          src={thumbnails?.maxres?.url || thumbnails?.high?.url}
           alt={title}
         />
       </div>

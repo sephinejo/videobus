@@ -11,18 +11,30 @@ export default class Youtube {
     return this.apiClient
       .channels({
         params: {
-          part: ['snippet', 'contentDetails', 'statistics'],
+          part: 'snippet,contentDetails,statistics',
           id: channelId,
         },
       })
       .then((res) => res.data.items[0]);
   }
 
+  async relatedVideos(channelId) {
+    return this.apiClient
+      .playlists({
+        params: {
+          part: 'snippet,contentDetails',
+          channelId: channelId,
+          maxResults: 25,
+        },
+      })
+      .then((res) => res.data.items);
+  }
+
   async #searchByKeyword(keyword) {
     return this.apiClient
       .search({
         params: {
-          part: 'snippet',
+          part: 'snippet, statistics',
           maxResults: 25,
           type: 'video',
           q: keyword,
@@ -36,7 +48,7 @@ export default class Youtube {
     return this.apiClient
       .videos({
         params: {
-          part: 'snippet',
+          part: 'snippet,statistics',
           maxResults: 25,
           chart: 'mostPopular',
         },

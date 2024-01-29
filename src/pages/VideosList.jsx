@@ -12,7 +12,7 @@ function VideosList({ searched, onDelete }) {
     isLoading,
     error,
     data: videos,
-  } = useQuery(['videos', keyword], () => youtube.search(keyword));
+  } = useQuery(['videos', keyword], async () => await youtube.search(keyword));
 
   return (
     <section className={styles.videosContainer}>

@@ -8,6 +8,8 @@ function VideoDetail() {
   const {
     state: { video },
   } = useLocation();
+  console.log(video);
+
   const { id, statistics } = video;
   const { title, publishedAt, description, channelId, channelTitle } =
     video.snippet;
@@ -27,8 +29,9 @@ function VideoDetail() {
         <pre className={styles.descriptionBox}>
           <div className={styles.statisticsBox}>
             <span>
-              {statistics?.viewCount ? statistics.viewCount : 'Unavailable'}{' '}
-              views,
+              {statistics?.viewCount
+                ? statistics.viewCount + ' views'
+                : 'Unknown views'}
             </span>
             <span>{format(publishedAt, 'en-US')}</span>
           </div>
@@ -37,9 +40,7 @@ function VideoDetail() {
           </p>
         </pre>
       </article>
-      {/*<section>
-        <RelatedVideos video={video} />
-      </section>*/}
+      <RelatedVideos id={channelId} />
     </section>
   );
 }
