@@ -5,6 +5,10 @@ Welcome to the React Video Platform, a dynamic and feature-rich web application 
 ## Live Demo
 [VIDEOBUS](https://main--eclectic-sfogliatella-efeb5b.netlify.app/)
 
+## Screenshot
+![Screenshot 2024-01-29 at 11 19 50 PM](https://github.com/sephinejo/videobus/assets/110086543/0033469b-315a-49ee-ae9e-6e78d2abca2e)
+
+
 ## Features
 
 - Popular Videos: Explore trending and popular videos on the platform, providing a snapshot of the latest and most-watched content.
@@ -24,6 +28,8 @@ Welcome to the React Video Platform, a dynamic and feature-rich web application 
 - Context: Facilitates the sharing of state and functionality throughout the application, enhancing data accessibility and simplifying component interactions.
 
 - YouTube Data API: Integrates seamlessly with the YouTube platform, enabling the retrieval of real-time video data, channel details, and related content.
+
+- CI/CD: Netlify
 
 ## Getting Started
 To get started with the React Video Platform, follow these simple steps:
