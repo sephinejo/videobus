@@ -12,6 +12,8 @@ function RelatedVideos({ id }) {
     { staleTime: 1000 * 60 * 5 }
   );
 
+  console.log(videos);
+
   var settings = {
     dots: true,
     infinite: false,
@@ -48,16 +50,20 @@ function RelatedVideos({ id }) {
   return (
     <section className={styles.container}>
       <h2 className={styles.title}>RELATED VIDEOS</h2>
-      <Slider {...settings}>
-        {videos?.map((video) => (
-          <RelatedVideoCard
-            key={video.id}
-            id={video.id}
-            title={video.snippet?.title}
-            video={video}
-          />
-        ))}
-      </Slider>
+      {videos.length !== 0 ? (
+        <Slider {...settings}>
+          {videos?.map((video) => (
+            <RelatedVideoCard
+              key={video.id}
+              id={video.id}
+              title={video.snippet?.title}
+              video={video}
+            />
+          ))}
+        </Slider>
+      ) : (
+        <p>No Related Videos</p>
+      )}
     </section>
   );
 }
