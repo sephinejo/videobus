@@ -1,5 +1,5 @@
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { FcFilmReel } from 'react-icons/fc';
+import { FcClapperboard } from 'react-icons/fc';
 import { BsSearchHeart } from 'react-icons/bs';
 import { RiDeleteBack2Line } from 'react-icons/ri';
 import { IoPersonCircleOutline } from 'react-icons/io5';
@@ -39,7 +39,7 @@ function Header() {
     <>
       <header className={styles.header}>
         <Link to='/' className={styles.logoBox}>
-          <FcFilmReel className={styles.logoIcon} />
+          <FcClapperboard className={styles.logoIcon} />
           <h1 className={styles.logoText}>VIDEOBUS</h1>
         </Link>
 

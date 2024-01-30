@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: var(--color-purple-light);
+  border-radius: 20px;
   height: 38rem;
 }
 
