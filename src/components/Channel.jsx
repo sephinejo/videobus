@@ -6,7 +6,8 @@ function Channel({ id, name }) {
   const { youtube } = useYoutubeApi();
   const { data: channel } = useQuery(
     ['channel', id],
-    async () => await youtube.channelDetail(id)
+    async () => await youtube.channelDetail(id),
+    { staleTime: 1000 * 60 * 5 }
   );
 
   return (

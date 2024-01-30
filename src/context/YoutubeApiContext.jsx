@@ -1,10 +1,12 @@
 import { createContext, useContext } from 'react';
+// eslint-disable-next-line
 import FakeYoutubeClient from '../api/fakeYoutubeClient';
 import YoutubeClient from '../api/youtubeClient';
 import Youtube from '../api/youtube';
 
 export const YoutubeApiContext = createContext();
 
+// eslint-disable-next-line
 // const client = new FakeYoutubeClient();
 const client = new YoutubeClient();
 const youtube = new Youtube(client);

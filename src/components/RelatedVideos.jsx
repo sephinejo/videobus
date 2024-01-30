@@ -8,7 +8,8 @@ function RelatedVideos({ id }) {
   const { youtube } = useYoutubeApi();
   const { data: videos } = useQuery(
     ['videos', id],
-    async () => await youtube.relatedVideos(id)
+    async () => await youtube.relatedVideos(id),
+    { staleTime: 1000 * 60 * 5 }
   );
 
   var settings = {
