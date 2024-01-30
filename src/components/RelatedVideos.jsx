@@ -50,7 +50,7 @@ function RelatedVideos({ id }) {
   return (
     <section className={styles.container}>
       <h2 className={styles.title}>RELATED VIDEOS</h2>
-      {videos.length !== 0 ? (
+      {videos?.length !== 0 ? (
         <Slider {...settings}>
           {videos?.map((video) => (
             <RelatedVideoCard
