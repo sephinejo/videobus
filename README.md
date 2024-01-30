@@ -1,6 +1,6 @@
 # 🎬VIDEOBUS🫧
 
-Welcome to the React Video Platform, a dynamic and feature-rich web application built using React.js, React Query, Context, and the YouTube Data API. This platform allows users to explore and interact with a vast collection of videos, providing functionalities such as viewing popular videos, searching for specific content, accessing channel information, and discovering related videos.
+Welcome to the React Video Platform, a dynamic and feature-rich web application built using React.js, React Query, Context, the YouTube Player API, and the YouTube Data API. This platform allows users to explore and interact with a vast collection of videos, providing functionalities such as viewing popular videos, searching for specific content, accessing channel information, and discovering related videos.
 
 ## Live Demo
 [VIDEOBUS](https://main--eclectic-sfogliatella-efeb5b.netlify.app/)
