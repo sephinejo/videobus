@@ -34,7 +34,7 @@ export default class Youtube {
     return this.apiClient
       .search({
         params: {
-          part: 'snippet, statistics',
+          part: 'snippet',
           maxResults: 25,
           type: 'video',
           q: keyword,

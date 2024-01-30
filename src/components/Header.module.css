@@ -24,7 +24,7 @@
 .searchForm {
   position: relative;
   display: grid;
-  grid-template-columns: 90% 10%;
+  grid-template-columns: 80% 10% 10%;
   max-width: 80rem;
   width: 80rem;
   height: 4.5rem;
@@ -41,6 +41,20 @@
 
 .searchInput::placeholder {
   color: var(--color-gray);
+}
+
+.resetBtn {
+  position: relative;
+}
+
+.resetIcon {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--color-purple-dark);
 }
 
 .searchBtn {

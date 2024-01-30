@@ -4,10 +4,12 @@ import styles from './VideoList.module.css';
 import SideBar from '../components/SideBar';
 import VideoCard from '../components/VideoCard';
 import { useYoutubeApi } from '../context/YoutubeApiContext';
+import { useSearchHistory } from '../context/SearchHistoryContext';
 
-function VideosList({ searched, onDelete }) {
+function VideosList() {
   const { keyword } = useParams();
   const { youtube } = useYoutubeApi();
+  const { searched, deleteHandler } = useSearchHistory();
   const {
     isLoading,
     error,
@@ -16,7 +18,7 @@ function VideosList({ searched, onDelete }) {
 
   return (
     <section className={styles.videosContainer}>
-      <SideBar searched={searched} onDelete={onDelete} />
+      <SideBar searched={searched} onDelete={deleteHandler} />
 
       {isLoading && <p>Loading...</p>}
       {error && <p>An error has occurred! {error.message}</p>}

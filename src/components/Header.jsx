@@ -1,14 +1,17 @@
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { FcFilmReel } from 'react-icons/fc';
 import { BsSearchHeart } from 'react-icons/bs';
+import { RiDeleteBack2Line } from 'react-icons/ri';
 import { IoPersonCircleOutline } from 'react-icons/io5';
 import styles from './Header.module.css';
 import { useEffect, useState } from 'react';
 import HotKeywords from './HotKeywords';
+import { useSearchHistory } from '../context/SearchHistoryContext';
 
-function Header({ onAdd, onDelete }) {
+function Header() {
   const [term, setTerm] = useState('');
   const { keyword } = useParams();
+  const { addHandler, deleteHandler } = useSearchHistory();
 
   const navigate = useNavigate();
 
@@ -21,7 +24,7 @@ function Header({ onAdd, onDelete }) {
 
     if (!term.trim().length) return;
 
-    onAdd(term);
+    addHandler(term);
 
     navigate(`/videos/${term}`);
 
@@ -30,7 +33,7 @@ function Header({ onAdd, onDelete }) {
 
   useEffect(() => {
     setTerm(keyword || '');
-  }, [keyword, onDelete]);
+  }, [keyword, deleteHandler]);
 
   return (
     <>
@@ -47,6 +50,15 @@ function Header({ onAdd, onDelete }) {
             placeholder='Search...'
             className={styles.searchInput}
           />
+
+          <button
+            type='reset'
+            className={styles.resetBtn}
+            onClick={() => setTerm('')}
+          >
+            <RiDeleteBack2Line className={styles.resetIcon} />
+          </button>
+
           <button type='submit' className={styles.searchBtn}>
             <BsSearchHeart className={styles.searchIcon} />
           </button>

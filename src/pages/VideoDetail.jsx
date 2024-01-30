@@ -2,13 +2,12 @@ import { useLocation } from 'react-router-dom';
 import styles from './VideoDetail.module.css';
 import Channel from '../components/Channel';
 import RelatedVideos from '../components/RelatedVideos';
-import { format } from 'timeago.js';
+import TimeAgo from 'timeago-react';
 
 function VideoDetail() {
   const {
     state: { video },
   } = useLocation();
-  console.log(video);
 
   const { id, statistics } = video;
   const { title, publishedAt, description, channelId, channelTitle } =
@@ -33,7 +32,9 @@ function VideoDetail() {
                 ? statistics.viewCount + ' views'
                 : 'Unknown views'}
             </span>
-            <span>{format(publishedAt, 'en-US')}</span>
+            <span>
+              <TimeAgo datetime={publishedAt} locale='en_US' />
+            </span>
           </div>
           <p className={styles.description}>
             {description ? description : 'No description'}

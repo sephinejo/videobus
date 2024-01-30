@@ -1,5 +1,5 @@
-import { format } from 'timeago.js';
 import { useNavigate } from 'react-router-dom';
+import TimeAgo from 'timeago-react';
 import styles from './VideoCard.module.css';
 
 function VideoCard({ video }) {
@@ -24,7 +24,8 @@ function VideoCard({ video }) {
       <h4 className={styles.channelTitle}>{channelTitle}</h4>
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.publishedAtViewBox}>
-        {format(publishedAt, 'en_US')}﹒{statistics?.viewCount} views
+        <TimeAgo datetime={publishedAt} locale='en_US' />﹒
+        {statistics?.viewCount} views
       </p>
     </div>
   );
