@@ -18,7 +18,7 @@ function VideoDetail() {
       <iframe
         id='player'
         type='text/html'
-        src={`http://www.youtube.com/embed/${id}?autoplay=1`}
+        src={`https://www.youtube.com/embed/${id}?autoplay=1`}
         className={styles.video}
         title={id}
       />
