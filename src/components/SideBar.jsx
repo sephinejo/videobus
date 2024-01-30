@@ -16,7 +16,10 @@ function SideBar({ searched, onDelete }) {
         {searched?.map((keyword, idx) => {
           return (
             <li className={styles.keywordBox} key={idx}>
-              <span onClick={() => navigate(`videos/${keyword}`)}>
+              <span
+                className={styles.keyword}
+                onClick={() => navigate(`/videos/${keyword}`)}
+              >
                 {keyword}
               </span>
               <RiDeleteBack2Line
