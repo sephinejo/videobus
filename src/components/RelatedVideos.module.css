@@ -1,0 +1,13 @@
+.container {
+  margin-top: 2rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-purple-light);
+  height: 38rem;
+}
+
+.title {
+  font-weight: 600;
+}

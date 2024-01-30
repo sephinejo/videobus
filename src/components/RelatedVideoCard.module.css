@@ -1,0 +1,18 @@
+.container {
+  max-height: 30rem;
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 90%;
+  height: 20rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+.title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  max-height: 10rem;
+  max-width: 90%;
+}
